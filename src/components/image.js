@@ -1,32 +1,39 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from 'react'
+import LogoZap from '../images/whatsapp.jpg'
+import LogoZoom from '../images/zoom-icon.png'
+import Tutorial from '../images/tutorialWhatsappWeb.jpg'
+import TutorialZoom from '../images/tutorialZoom01.jpg'
 
-/*
- * This component is built using `gatsby-image` to automatically serve optimized
- * images with lazy loading and reduced file sizes. The image is loaded using a
- * `useStaticQuery`, which allows us to load the image from directly within this
- * component, rather than having to pass the image data down from pages.
- *
- * For more information, see the docs:
- * - `gatsby-image`: https://gatsby.dev/gatsby-image
- * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
- */
+import { Card, Image } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
 
-const Image = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+ const CardWhatsapp = _ => (
+  <Card.Group itemsPerRow={3}>
+    <Card>
+      <a href = {Tutorial} alt="tutorial para whatsapp web"><Image src={LogoZap} wrapped ui={false}/></a>
+      <Card.Content>
+        <Card.Header>Whatsapp Web</Card.Header>
+        <Card.Meta>
+          <span className='date'>21/07/2020</span>
+        </Card.Meta>
+        <Card.Description>
+          <a href = {Tutorial} alt="tutorial para whatsapp web">Tutorial para acessar o whatsapp web</a>
+        </Card.Description>
+      </Card.Content>
+    </Card>
+    <Card>
+      <a href = {TutorialZoom} alt="tutorial para instalar o Zoom"><Image src={LogoZoom} wrapped ui={false}/></a>
+      <Card.Content>
+        <Card.Header>Intalação do Zoom</Card.Header>
+        <Card.Meta>
+          <span className='date'>30/08/2020</span>
+        </Card.Meta>
+        <Card.Description>
+        <a href = {TutorialZoom} alt="tutorial para instalar o Zoom">Tutorial para instalar o Zoom</a>
+        </Card.Description>
+      </Card.Content>
+    </Card>
+  </Card.Group>
+)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-}
-
-export default Image
+export default CardWhatsapp
