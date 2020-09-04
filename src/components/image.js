@@ -12,25 +12,17 @@ import 'semantic-ui-css/semantic.min.css'
     <Card>
       <a href = {Tutorial} alt="tutorial para whatsapp web"><Image src={LogoZap} wrapped ui={false}/></a>
       <Card.Content>
-        <Card.Header>Whatsapp Web</Card.Header>
-        <Card.Meta>
-          <span className='date'>21/07/2020</span>
-        </Card.Meta>
-        <Card.Description>
-          <a href = {Tutorial} alt="tutorial para whatsapp web">Tutorial para acessar o whatsapp web</a>
-        </Card.Description>
+        <Card.Header>
+        <a href = {Tutorial} alt="tutorial para whatsapp web">Acessar Whatsapp Web</a>
+        </Card.Header>
       </Card.Content>
     </Card>
     <Card>
       <a href = {TutorialZoom} alt="tutorial para instalar o Zoom"><Image src={LogoZoom} wrapped ui={false}/></a>
       <Card.Content>
-        <Card.Header>Intalação do Zoom</Card.Header>
-        <Card.Meta>
-          <span className='date'>30/08/2020</span>
-        </Card.Meta>
-        <Card.Description>
-        <a href = {TutorialZoom} alt="tutorial para instalar o Zoom">Tutorial para instalar o Zoom</a>
-        </Card.Description>
+        <Card.Header>
+          <a href = {TutorialZoom} alt="tutorial para instalar o Zoom">Intalação do Zoom</a>
+        </Card.Header>
       </Card.Content>
     </Card>
   </Card.Group>
