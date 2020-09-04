@@ -8,7 +8,7 @@ import BannerMain from "../components/banner"
 
 const IndexPage = () => (
   <Layout>
-    <div style={{ maxWidth: `800px`, marginTop: `1.45rem`, marginBottom: `1.45rem` }}>
+    <div style={{ marginTop: `1.45rem`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
   </Layout>
