@@ -21,7 +21,7 @@ import 'semantic-ui-css/semantic.min.css'
       <a href = {TutorialZoom} alt="tutorial para instalar o Zoom"><Image src={LogoZoom} wrapped ui={false}/></a>
       <Card.Content>
         <Card.Header>
-          <a href = {TutorialZoom} alt="tutorial para instalar o Zoom">Intalação do Zoom</a>
+          <a href = {TutorialZoom} alt="tutorial para instalar o Zoom">Instalação do Zoom</a>
         </Card.Header>
       </Card.Content>
     </Card>
