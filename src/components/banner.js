@@ -2,10 +2,7 @@ import React from 'react'
 import { BannerMainContainer, ContentAreaContainer} from './banner-style'
 import ImgBanner from '../images/banner2.jpeg'
 
-export default function BannerMain({
-  bannerTitle,
-  bannerDescription
-}) {
+export default function BannerMain() {
   return (
     <BannerMainContainer backgroundImage={ImgBanner}>
       <ContentAreaContainer>
