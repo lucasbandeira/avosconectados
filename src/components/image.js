@@ -2,7 +2,7 @@ import React from 'react'
 import LogoZap from '../images/whatsapp.jpg'
 import LogoZoom from '../images/zoom-icon.png'
 import Tutorial from '../images/tutorialWhatsappWeb.jpg'
-import TutorialZoom from '../images/tutorialZoom01.jpg'
+import TutorialZoom from '../images/tutorialZoom.pdf'
 
 import { Card, Image } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
