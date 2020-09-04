@@ -7,11 +7,14 @@ export default function BannerMain() {
     <BannerMainContainer backgroundImage={ImgBanner}>
       <ContentAreaContainer>
         <ContentAreaContainer.Item>
+          <ContentAreaContainer.Title>
+            O que é o projeto?
+          </ContentAreaContainer.Title>
           <ContentAreaContainer.Description>
-            <h3><strong>Somos os Jovens por um Mundo Unido</strong><br/></h3>
-            <h4>Durante a pandemia descobrimos que podemos ajudar outras pessoas sem sair de casa.
-            Se você precisa de ajuda para utilizar o whatsapp, zoom, skype, google meet, redes sociais..
-            Então acho que podemos te ajudar! Acesse abaixo nossos tutoriais!</h4>
+            Nosso objetivo é tornar tornar o mundo digital mais acessível.<br/>
+            Nós,<a href="http://www.focolares.org.br/movimento-dos-focolares/um-povo/jovens-por-um-mundo-unido/"><strong> Jovens por um Mundo Unido</strong></a>, durante a pandemia descobrimos que podemos ajudar outras pessoas sem sair de casa.
+            Se você precisa de ajuda para utilizar o whatsapp, zoom, skype, google meet, redes sociais e outros aplicativos, então acho que podemos te ajudar!<br/>
+            Acesse abaixo nossos tutoriais!
           </ContentAreaContainer.Description>
         </ContentAreaContainer.Item>
       </ContentAreaContainer>
