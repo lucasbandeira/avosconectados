@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import Header from './header'
 import BannerMain from './banner'
+import Footer from './footer'
 import './layout.css'
 
 const Layout = ({ children }) => {
@@ -20,6 +21,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
       </div>
+      <Footer />
     </>
   )
 }
