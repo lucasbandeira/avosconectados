@@ -7,11 +7,17 @@ import SEO from "../components/seo"
 import BannerMain from "../components/banner"
 
 const IndexPage = () => (
-  <Layout>
-    <div style={{ marginTop: `1.45rem`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-  </Layout>
+  <>
+    <head>
+      <title>À Vos Conectados</title>
+    </head>
+    <Layout>
+      <div style={{ marginTop: `1.45rem`, marginBottom: `1.45rem` }}>
+        <Image />
+      </div>
+    </Layout>
+  </>
+
 )
 
 export default IndexPage

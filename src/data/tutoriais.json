@@ -1,0 +1,14 @@
+{
+  "titulo": "Tutoriais",
+  "cor": "orange",
+  "artigos": [
+    {
+      "titulo": "Whatsapp",
+      "url": ""
+    },
+    {
+      "titulo": "Zoom",
+      "url": ""
+    }
+  ]
+}

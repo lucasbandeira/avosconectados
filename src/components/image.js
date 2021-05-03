@@ -7,7 +7,7 @@ import TutorialZoom from '../images/tutorialZoom.pdf'
 import { Card, Image } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 
- const CardWhatsapp = _ => (
+ const Cards = _ => (
   <Card.Group itemsPerRow={3}>
     <Card>
       <a href = {Tutorial} alt="tutorial para whatsapp web"><Image src={LogoZap} wrapped ui={false}/></a>
@@ -28,4 +28,4 @@ import 'semantic-ui-css/semantic.min.css'
   </Card.Group>
 )
 
-export default CardWhatsapp
+export default Cards
