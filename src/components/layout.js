@@ -8,7 +8,7 @@ import './layout.css'
 
 const Layout = ({ children }) => (
   <>
-    <Header siteTitle="À Vós Conectados" linkSubscribe="Inscreva-se aqui" />
+    <Header siteTitle="A Vós Conectados" linkSubscribe="Inscreva-se aqui" />
     <BannerMain />
     <div
       style={{
