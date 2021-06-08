@@ -11,7 +11,7 @@ export default function BannerMain() {
             O que é o projeto?
           </ContentAreaContainer.Title>
           <ContentAreaContainer.Description>
-            <h3>
+            <h2>
             Nosso objetivo é tornar o mundo digital mais acessível.<br/>
             Nós,<a href="https://www.instagram.com/jpmubrasil/" target="_blank"><strong> Jovens por um Mundo Unido</strong></a>,
             durante a pandemia descobrimos que podemos ajudar outras pessoas sem sair de casa.<br/>
@@ -20,10 +20,9 @@ export default function BannerMain() {
 
             <br/>
             <ul>
-              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScuAFRaABYlgojSyNLPP1OhlTmj1n34KdCBi8l4Felyj84bMw/viewform" target="_blank">Inscreva-se</a> para um agendamento com nossos voluntários</li>
               <li>Acesse abaixo nossos tutoriais</li>
             </ul>
-            </h3>
+            </h2>
           </ContentAreaContainer.Description>
         </ContentAreaContainer.Item>
       </ContentAreaContainer>
