@@ -36,9 +36,4 @@ Header.propTypes = {
   linkSubscribe: PropTypes.string,
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
-  linkSubscribe: ``,
-}
-
 export default Header
